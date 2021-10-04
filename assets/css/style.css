@@ -72,38 +72,6 @@ header nav ul li a:hover {
 
 /* HEADER / NAVBAR STYLES END */
 
-/* FOOTER STYLES START */
-footer {
-  background: var(--primary-color);
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-footer h2 {
-  color:var(--secondary-color);
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: var(--secondary-color);
-}
-
-/* FOOTER STYLES END */
-
-/* STYLE ALL SECTION TAGS */
-section {
-  padding: 60px;
-}
-
 /* HERO STYLES START */
 .hero {
   background-image: url(../images/kevin_memoji_bg.jpg);
@@ -136,8 +104,7 @@ section {
 /* SECTION TITLE STYLES START */
 .section-title {
   font-size: 48px;
-  border-bottom: 3px solid;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -156,9 +123,9 @@ section {
 
 
 
-/* MEET THE TRAINERS START */
+/* MY WORK START */
 .flex-row img {
-  width: 50%;
+  width: 70%;
   display: flex;
   text-align: center;
 }
@@ -201,10 +168,10 @@ section {
   font-size: 17px;
 }
 
-/* TRAINER STYLES END */
+/* MY WORK END */
 
 
-/* REACH OUT STYLES START */
+/* CONTACT ME STYLES START */
 .contact {
   background: gray;
 }
@@ -267,7 +234,7 @@ section {
   color: var(--primary-color);
 }
 
-/*REACH OUT STYLES END */
+/* CONTACT ME STYLES END */
 
 /* UTILITIES */
 .text-left {
@@ -355,6 +322,38 @@ section {
   .step-text {
    flex: 100%;
   }
+}
+
+/* FOOTER STYLES START */
+footer {
+  background: var(--primary-color);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color:var(--secondary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+
+/* FOOTER STYLES END */
+
+/* STYLE ALL SECTION TAGS */
+section {
+  padding: 60px;
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
